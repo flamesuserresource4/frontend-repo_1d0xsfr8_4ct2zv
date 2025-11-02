@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 import AnimeBackdrop from './components/AnimeBackdrop';
 import Nav from './components/Nav';
@@ -29,9 +29,5 @@ function Shell() {
 }
 
 export default function App() {
-  return (
-    <BrowserRouter>
-      <Shell />
-    </BrowserRouter>
-  );
+  return <Shell />;
 }
